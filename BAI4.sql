@@ -36,5 +36,6 @@ order by category DESC;
 
 select product_name, category, price, stock_quantity
 from products
+where category = 'Clothing'
 order by price ASC
 limit 1;
